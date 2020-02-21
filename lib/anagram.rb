@@ -12,7 +12,7 @@ class Anagram
       new_array= i.split("").sort
       
       if new_array == @word.split("").sort
-        anagram_array << i
+        anagram_array << new_array
         return anagram_array
       else 
         return anagram_array

@@ -13,10 +13,11 @@ class Anagram
       
       if new_array == @word.split("").sort
         anagram_array << i
+      else 
+        return anagram_array
       end 
+    
       
-      return 
-        anagram_array
     end 
   end 
 

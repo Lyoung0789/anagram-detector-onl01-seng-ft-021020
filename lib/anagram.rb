@@ -22,10 +22,10 @@ class Anagram
         return anagram_array
       end 
       
-      return anagram_array
     
       
     end 
+    return anagram_array 
   end 
 
 

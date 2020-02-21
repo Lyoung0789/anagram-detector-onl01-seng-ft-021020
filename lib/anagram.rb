@@ -11,7 +11,7 @@ class Anagram
     array.each do |i|
       new_array = i.split("").sort
       puts new_array
-      
+      puts "this is what\n #{@word.split("").sort"
       if new_array == @word.split("").sort
         anagram_array << i
         return anagram_array

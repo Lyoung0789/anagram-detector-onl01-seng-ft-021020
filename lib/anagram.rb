@@ -2,7 +2,7 @@
 class Anagram
   attr_accessor :word
   
-  def initialization 
+  def initialization (word)
    @word = word 
   end 
 

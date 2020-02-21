@@ -19,11 +19,8 @@ class Anagram
       
       if new_array == @word.split("").sort
         anagram_array << i
-        return anagram_array
       end 
-      
-    
-      
+      return anagram_array
     end 
     return anagram_array 
   end 

@@ -8,7 +8,7 @@ class Anagram
 
   def match (array)
     array.each do |i|
-      
+      #compare @word with each iteration
     end 
   end 
 

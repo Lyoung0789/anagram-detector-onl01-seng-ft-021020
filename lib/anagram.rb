@@ -13,6 +13,8 @@ class Anagram
       if new_array == @word.split("").sort
         return i
       end 
+      
+      return false
     end 
   end 
 
